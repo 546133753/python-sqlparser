@@ -89,7 +89,7 @@ if __name__ == '__main__':
         with open("README.md", "r", encoding="utf-8") as fh:
             long_description = fh.read()
 
-        setup(name='sqlparser',
+        setup(name='python-sqlparser',
               version='1.1',
               description='A package for parsing SQL queries',
               long_description=long_description,
