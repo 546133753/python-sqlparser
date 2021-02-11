@@ -3,6 +3,10 @@ python-sqlparser
 
 A Python Module for the "General SQL Parser" library (sqlparser.com)
 
+Refer
+-----
+https://github.com/TwoLaid/python-sqlparser
+
 Supported Systems
 -----------------
 This library currently supports: Windows 32bit/64bit and Linux 32bit/64bit. 
@@ -14,8 +18,7 @@ Installation
 ------------
 Simply clone or download this git and execute
 
-	python setup.py build
-	python setup.py install
+	pip install python-sqlparser
 
 The setup script will automatically download the right library (from sqlparser.com) for you.
 

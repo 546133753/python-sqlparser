@@ -86,9 +86,14 @@ if __name__ == '__main__':
             parsebridge.extra_link_args = ['/MANIFEST', '/DEBUG']
             parsebridge.extra_compile_args = ['/Zi']
 
+        with open("README.md", "r", encoding="utf-8") as fh:
+            long_description = fh.read()
+
         setup(name='sqlparser',
               version='1.1',
               description='A package for parsing SQL queries',
+              long_description=long_description,
+              long_description_content_type='text/markdown',
               author='Timo Djürken',
               url='https://github.com/546133753/python-sqlparser',
               license='GPL',
